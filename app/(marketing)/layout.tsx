@@ -10,7 +10,7 @@ export default function MarketingLayout({
   return (
     <div className="h-full bg-slate-100">
       <Navbar />
-      <main className="pt-20 pb-20 bg-slate-100">{children}</main>
+      <main className="pt-40 pb-20 bg-slate-100">{children}</main>
       <Footer />
     </div>
   );
